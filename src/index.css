@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@layer components {
+    .title-principal {
+        @apply text-Beige font-Montserrat font-Bold text-4xl tablet:text-6xl;
+    }
+
+
+    .title-secundary {
+        @apply text-LightGray text-[1.5rem];
+    }
+
+    .title-sections {
+        @apply font-Poppins text-4xl tablet:text-5xl
+    }
+
+    .text-sections {
+        @apply font-Poppins text-base tablet:text-lg laptop1:text-xl
+    }
+}
+

@@ -1,0 +1,24 @@
+
+
+.switchLanguage select {
+    appearance: none;
+    /* Remove default styles (may not work in all browsers) */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    
+}
+
+.switchLanguage {
+    padding: 0;
+    border: none;
+    width: 80px;
+    
+    
+}
+
+.switchLanguage .select{
+    display: flex;
+    align-items: center;
+}
